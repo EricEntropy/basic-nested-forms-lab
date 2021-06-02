@@ -1,6 +1,6 @@
 require 'rails_helper'
 require 'capybara/rspec'
-
+system('clear')
 describe "the recipe form", :type => :feature do
   it "sets the title" do
     visit '/recipes/new'
